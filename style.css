@@ -17,9 +17,11 @@
     src: url(Fonts/BareKnucklesDEMO.otf);
 }
 
-body{background-image: url(images/graydesign2.png);
+body{
+    background-image: url(images/graydesign2.png);
     background-size: cover;
     width: 100%;
+   
 }
 
 #menu {
@@ -28,6 +30,7 @@ body{background-image: url(images/graydesign2.png);
     background-color: dimgrey;
     padding-top: 20px;
     float: right;
+    margin-left: 100px;
 }
 
 #menu a{
@@ -38,10 +41,11 @@ body{background-image: url(images/graydesign2.png);
     text-shadow: #171919 2px 2px 2px;
     transition-duration: 0.4s;
     font-weight: 800;
-    padding-top: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 50%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 5%;
+    
 }
 #menu a:hover{
     color: #2378DA;
@@ -50,17 +54,18 @@ body{background-image: url(images/graydesign2.png);
 
 
 H1{ 
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color:#2378DA;
-    font-display:initial;
-    margin-top: -0.50%;
-    margin-bottom: 0%;
-    background-color: dimgrey;
+    background :none;
     background-size:100%;
-    text-shadow: 5px -5px 5px rgb(15, 12, 12);
+    color:#2378DA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display:initial;
+    font-size: 100%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-left: 1%;
     padding-top: 6px;
+    text-shadow: 3px -2px 2px rgb(15, 12, 12);
+
 }
 
 
@@ -68,21 +73,16 @@ H1{
 
 
 H2{
-    
-    
     font-family: "crew",sans-serif;
     font-size: 80px;
     font-weight: 400;
     color: white;
     text-shadow: #171919 5px -5px 3px;
     margin-left: +18%;
-    transition-duration: 0.4s;
-    
-          
+    transition-duration: 0.4s;    
 }
 
 H2:hover{
-  
     font-family: "crew",sans-serif;
     font-size: 80px;
     font-weight: 800;
@@ -90,8 +90,6 @@ H2:hover{
     text-shadow: #4c92f4 5px -5px 3px;
 }
 H4{
-    
-    
     font-family: Helvetica ,sans-serif;
     font-size: 25px;
     font-weight: 800;
@@ -102,20 +100,15 @@ H4{
 }
 
 H5{
-    
-    
     font-family: "crew";
     font-size: 80px;;
     font-weight: 400;
     color: white;
     text-shadow: #171919 5px -5px 3px;
-    margin-left: +1%;
-    
-          
+    margin-left: +1%;      
 }
 
 H5:hover{
-  
     font-family: "crew";
     font-size: 80px;
     font-weight: 800;
@@ -127,15 +120,13 @@ H5:hover{
 
 
 table{ 
-  
      border-collapse: collapse;
-     margin-left: 2%;
-     margin-right: 2%;  
+     width: 100%;
 }
     
 th{ 
     font-family: "faster" ,sans-serif;
-    font-size: 50px;
+    font-size: 200%;
     font-weight:800 ;
     text-shadow: #171919 2px -2px 2px;
     background-color: rgb(98, 97, 97);
@@ -143,18 +134,21 @@ th{
 }
 
 tr{
-    
+    padding-left: 40%;
+    padding-right: 40%;
     padding-top: 100px;
-    margin-left: 5%;
-    font-size: 35px;
+    margin-left: 2%;
+    font-size: 110%;
     font-weight: 500 ;
     background-color: darkgray;
     color: #171919 ;
 }
 
-td{
-   margin-left: 10px;
-
+td{ 
+    font-size: 140%;
+    padding-left: 4%;
+    padding-right:4%;
+    margin-left: 10%;
 }
 p{ 
     font-family: Helvetica, sans-serif;
